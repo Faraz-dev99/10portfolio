@@ -5,8 +5,9 @@ import App from './App';
 
 import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route, Home, About,Services,Contact } from './components/MyFiles';
 import reportWebVitals from './reportWebVitals';
+import { createHashRouter } from 'react-router-dom';
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />}>
       <Route path='' element={<Home />} />
@@ -15,6 +16,7 @@ const router = createBrowserRouter(
       <Route path='contact' element={<Contact />} />
     </Route>
   )
+  
 );
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
