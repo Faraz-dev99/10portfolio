@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f7b0d9d.css",
-    "main.js": "/static/js/main.fce3e6d1.js",
-    "static/js/453.5aa36b1e.chunk.js": "/static/js/453.5aa36b1e.chunk.js",
-    "static/media/SideLogo.png": "/static/media/SideLogo.cfdef697ef9d18c6d9a1.png",
-    "static/media/ReactLogo.png": "/static/media/ReactLogo.983e97b0e14051347d68.png",
-    "static/media/JavascriptLogo.png": "/static/media/JavascriptLogo.649a896f8c09e1c99df5.png",
-    "static/media/MongoDbLogo.svg": "/static/media/MongoDbLogo.01fe4f093e0d90771cbdc89eff375b8c.svg",
-    "static/media/NodeJsLogo.svg": "/static/media/NodeJsLogo.679e00d3f1224b41a5c85aca9765b898.svg",
-    "static/media/PostmanLogo.svg": "/static/media/PostmanLogo.56494d62723ffaa7af4608e56b627733.svg",
-    "static/media/MySqlLogo.svg": "/static/media/MySqlLogo.0b9bc0186525f731d3c8f5ade5f64deb.svg",
-    "static/media/NetlifyLogo.svg": "/static/media/NetlifyLogo.c7eb07c4d0ddb44d07ea89baccf07857.svg",
-    "static/media/PhpLogo.svg": "/static/media/PhpLogo.01e106948031aa8ebf50e7869ecc5315.svg",
-    "static/media/GitHubLogo.svg": "/static/media/GitHubLogo.317cbbc5efd43fc89e7e1cd9870eae48.svg",
-    "static/media/GitLogo.svg": "/static/media/GitLogo.70f099170f46f760e5d9f09849c589b6.svg",
-    "static/media/TailwindLogo.svg": "/static/media/TailwindLogo.681db3393706b0b8d30fa63229e8ee85.svg",
-    "index.html": "/index.html",
-    "static/media/NextJsLogo.svg": "/static/media/NextJsLogo.2426e69d99a468ba15350524597693c4.svg",
-    "main.1f7b0d9d.css.map": "/static/css/main.1f7b0d9d.css.map",
-    "main.fce3e6d1.js.map": "/static/js/main.fce3e6d1.js.map",
-    "453.5aa36b1e.chunk.js.map": "/static/js/453.5aa36b1e.chunk.js.map"
+    "main.css": "/10portfolio/static/css/main.1f7b0d9d.css",
+    "main.js": "/10portfolio/static/js/main.88a3a486.js",
+    "static/js/453.5aa36b1e.chunk.js": "/10portfolio/static/js/453.5aa36b1e.chunk.js",
+    "static/media/SideLogo.png": "/10portfolio/static/media/SideLogo.cfdef697ef9d18c6d9a1.png",
+    "static/media/ReactLogo.png": "/10portfolio/static/media/ReactLogo.983e97b0e14051347d68.png",
+    "static/media/JavascriptLogo.png": "/10portfolio/static/media/JavascriptLogo.649a896f8c09e1c99df5.png",
+    "static/media/MongoDbLogo.svg": "/10portfolio/static/media/MongoDbLogo.01fe4f093e0d90771cbdc89eff375b8c.svg",
+    "static/media/NodeJsLogo.svg": "/10portfolio/static/media/NodeJsLogo.679e00d3f1224b41a5c85aca9765b898.svg",
+    "static/media/PostmanLogo.svg": "/10portfolio/static/media/PostmanLogo.56494d62723ffaa7af4608e56b627733.svg",
+    "static/media/MySqlLogo.svg": "/10portfolio/static/media/MySqlLogo.0b9bc0186525f731d3c8f5ade5f64deb.svg",
+    "static/media/NetlifyLogo.svg": "/10portfolio/static/media/NetlifyLogo.c7eb07c4d0ddb44d07ea89baccf07857.svg",
+    "static/media/PhpLogo.svg": "/10portfolio/static/media/PhpLogo.01e106948031aa8ebf50e7869ecc5315.svg",
+    "static/media/GitHubLogo.svg": "/10portfolio/static/media/GitHubLogo.317cbbc5efd43fc89e7e1cd9870eae48.svg",
+    "static/media/GitLogo.svg": "/10portfolio/static/media/GitLogo.70f099170f46f760e5d9f09849c589b6.svg",
+    "static/media/TailwindLogo.svg": "/10portfolio/static/media/TailwindLogo.681db3393706b0b8d30fa63229e8ee85.svg",
+    "index.html": "/10portfolio/index.html",
+    "static/media/NextJsLogo.svg": "/10portfolio/static/media/NextJsLogo.2426e69d99a468ba15350524597693c4.svg",
+    "main.1f7b0d9d.css.map": "/10portfolio/static/css/main.1f7b0d9d.css.map",
+    "main.88a3a486.js.map": "/10portfolio/static/js/main.88a3a486.js.map",
+    "453.5aa36b1e.chunk.js.map": "/10portfolio/static/js/453.5aa36b1e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f7b0d9d.css",
-    "static/js/main.fce3e6d1.js"
+    "static/js/main.88a3a486.js"
   ]
 }
