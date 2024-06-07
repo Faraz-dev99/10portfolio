@@ -1,0 +1,232 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+  background:linear-gradient(65deg,#010B11,#102335,#18353E);
+  color:white;
+  min-height:100vh;
+  width:100%;
+  
+}
+
+/*web scrollbar styling*/
+::-webkit-scrollbar {
+    width: 10px;
+   
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+   /*  box-shadow: inset 0 0 5px #003449; */
+    /* border-radius: 10px; */
+    background:#001620;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #259ACA;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar:horizontal{
+    height: 8px;
+    background:transparent;
+  }
+  ::-webkit-scrollbar-track:horizontal{
+    /*box-shadow: inset 0 0 5px grey;*/
+    /* border-radius: 10px; */
+    background:#001620;
+  }
+  ::-webkit-scrollbar-thumb:horizontal{
+    background: #259ACA;
+          border-radius: 10px;
+          
+      }
+
+.mainNavbar{
+    height:100%;
+}
+.mainNavbar ul{
+    width:100%;
+}
+
+.mainNavbar ul a{
+    position:relative;
+}
+
+.maxDefaultWidth{
+    max-width:900px;
+}
+
+.mainNavbar a::after{
+    content: "";
+    height: .4px;
+    width: 100%;
+    background: #12A3DF;
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    transform-origin: right;
+    transition: transform .5s;
+    transform: scaleX(0);
+}
+.mainNavbar a:hover::after{
+    transform-origin: left;
+     transform: scaleX(1);
+
+}
+
+
+
+.homeMainBtn{
+   background:#08A8DC;
+   border-radius:10px;
+   padding:10px;
+   margin-top:10px;
+   color:#18353E;
+   transition:all .3s ease-out;
+}
+
+.homeMainBtn:hover{
+    
+    transform:scale(1.1);
+}
+
+.opacityeffect{
+    
+    transition:opacity 3s ease;
+}
+
+
+@media screen and (max-width:900px){
+    .respwelcometitle{
+        font-size:20px;
+    
+    }
+    .respTitle{
+        font-size:40px;
+    }
+.homecontainer{
+    flex-wrap:wrap;
+}
+.homecontainer .homecontainerdirectChild1{
+    margin-bottom:15px;
+    width:100%;
+}
+
+/*border-top: 1px solid;
+  border-image: linear-gradient(to right, #000 50%, transparent 50%) 100% 1;*/
+.homecontainerdirectChild2 img{
+
+    width:80%;
+}
+
+
+    
+}
+
+
+
+
+
+
+@media screen and (max-width:640px){
+    .mainNavbar{  
+        margin:0;
+        position:absolute;
+        top:0;
+        right:0;
+        padding:0px;
+        /* background:#02070B; */
+        background:#000A13;
+        width:0px;
+        height:100vh;
+        overflow:hidden;
+        transition:width .4s ease-out;
+    }
+    .rootcontainers{
+        padding:10px 20px;
+    }
+    .openmenu{
+        width:80%;
+    }
+    .mainNavbar ul{
+       flex-direction:column;
+       gap:30px;
+       margin-top:70px;
+       align-items:flex-end;
+       padding:18px 24px;
+       
+       
+       min-height:300px;
+    }
+    .mainNavbar ul a{
+        padding-bottom:10px;
+        border-bottom:.4px solid #001F39;
+        width:100%;
+        text-align:right;
+    }
+    .navmanu{
+        display:block;
+        position:relative;
+        z-index:20;
+    }
+    .respwelcometitle{
+        font-size:16px;
+    }
+    .respTitle{
+        font-size:34px;
+    }
+    .homecontainerdirectChild2{
+        
+
+        }
+        
+}
+
+
+@media screen and (max-width:450px){
+
+.respwelcometitle{
+    font-size:12px;
+
+}
+.SkillBoxCard{
+    
+}
+
+.respTitle{
+    font-size:20px;
+}
+.resphomeservicessec{
+    flex-wrap:wrap;
+}
+.mainfooterlink,.mainfooterboxchild{
+    flex-direction:column;
+}
+}
+
+.homecontainerdirectChild2 img{
+    animation:imgymove 4s linear infinite;
+  }
+  
+  
+  @keyframes imgymove{
+  0%,100%{
+    transform: scale(.9);
+  }
+  30%{
+  transform: scale(1)
+  }
+  80%{
+  transform: scale(.8)
+  }
+  }
+  
+.homeintroanimation{
+    transition:opacity 2s ease;
+}
+    
